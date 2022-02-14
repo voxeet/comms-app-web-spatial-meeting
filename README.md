@@ -24,9 +24,9 @@ Now, simply open the file `index.html` in your web browser and start playing wit
 
 ## Next Steps
 
-Spatial audio opens the door to a range of possibilities when building your web conferencing app, such as virtual events, meeting spaces and collaboration tools. For this blog we kept it simple with a fixed place example, however, the tools work just as well for building a dynamically updating web app that adjusts spatial audio as the users move around in a 2D or 3D environment.
+Spatial audio opens the door to a range of possibilities when building your web conferencing app, such as virtual events, meeting spaces, and collaboration tools. For this blog we kept it simple with a fixed place example, however, the tools work just as well for building a dynamically updating web app that adjusts spatial audio as the users move around in a 2D or 3D environment.
 
-Here are some helpful resources to dive deeper into the awesome world of spatial and Dolby.io:
+Whatever your next spatial project is, the Dolby.io team is here to help. Connect with us or check out a few of our helpful resources to dive deeper into the awesome world of spatial audio and Dolby.io:
 
 - [Enabling Spatial Audio in Your Web Applications](https://dolby.io/blog/enabling-spatial-audio-in-your-web-applications/)
 - [The Dolby.io Documentation for Integrating Spatial Audio](https://docs.dolby.io/communications-apis/docs/guides-integrating-spatial-audio)
