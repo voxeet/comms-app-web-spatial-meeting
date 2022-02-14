@@ -1,0 +1,49 @@
+.video-container {
+	width: 25.6%;
+	padding-bottom: 18.4%; /* = width for a 1:1 aspect ratio */
+	margin: 1%;
+	background-color: #900c3f;
+	height: 1px;
+	position: relative;
+	outline: 7px solid black;
+}
+.grid {
+	display: flex; /* establish flex container */
+	margin-left: auto;
+	margin-right: auto;
+	flex-wrap: wrap; /* enable flex items to wrap */
+	width: 60%;
+	height: 5%;
+}
+.cell {
+	flex: 72%; /* don't grow, don't shrink, width */
+	height: 100px;
+	margin-bottom: 15px;
+}
+
+video {
+	object-fit: cover;
+	width: 100% !important;
+	height: 100% !important;
+	z-index: 0;
+	position: absolute;
+	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg); /* Safari and Chrome */
+	-moz-transform: rotateY(180deg); /* Firefox */
+}
+
+.caption {
+	z-index: 1;
+	position: relative;
+	text-align: left;
+	color: white;
+	padding: 0.5px;
+	background-color: black;
+	outline: 2px solid black;
+	opacity: 1;
+}
+
+html,
+body {
+	height: 100%;
+}

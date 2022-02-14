@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Fixed Place Spatial Web App</title>
+		<link rel="stylesheet" href="index.css" />
+		<script
+			type="text/javascript"
+			src="https://unpkg.com/@voxeet/voxeet-web-sdk"
+		></script>
+		<script type="text/javascript" src="scripts/ui.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<body>
+				<h1>Welcome to the Dolby.io Fixed Place Spatial Demo:</h1>
+			</body>
+
+            <!-- Container for joining a conference -->
+			<div id="form">
+				<label>Conference alias :</label>
+				<input id="alias-input" value="Avengers meeting" />
+				<button id="join-btn">Join</button>
+				<button id="leave-btn" disabled>Leave</button>
+				<label id="label-dolby-voice"></label>
+			</div>
+			<br />
+
+            <!-- Container for the conference controls -->
+			<div id="actions">
+				<button id="start-video-btn" disabled>Start video</button>
+				<button id="stop-video-btn" disabled>Stop video</button>
+				<button id="start-audio-btn" disabled>UnMute</button>
+				<button id="stop-audio-btn" disabled>Mute</button>
+				<button id="start-recording-btn" disabled>Start recording</button>
+				<button id="stop-recording-btn" disabled>Stop recording</button>
+				<p id="record-status" style="color: red"></p>
+			</div>
+			<hr style="width: 100%" , size="4" , color="black" />
+			<br />
+
+			<!-- Container for the video streams -->
+			<div id="main-view-container" class="grid">
+				<div class="video-container" id="video-container-0" class="cell"></div>
+				<div class="video-container" id="video-container-1" class="cell"></div>
+				<div class="video-container" id="video-container-2" class="cell"></div>
+				<div class="video-container" id="video-container-3" class="cell"></div>
+				<div class="video-container" id="video-container-4" class="cell"></div>
+				<div class="video-container" id="video-container-5" class="cell"></div>
+				<div class="video-container" id="video-container-6" class="cell"></div>
+				<div class="video-container" id="video-container-7" class="cell"></div>
+				<div class="video-container" id="video-container-8" class="cell"></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/client.js"></script>
+	</body>
+</html>
