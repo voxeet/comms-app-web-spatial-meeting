@@ -1,4 +1,4 @@
-# Dolby.io Web SDK Sample Application
+# Dolby.io Web SDK Fixed Spatial Audio Sample Application
 
 This sample application for the Dolby.io Web SDK is a more complete version of the [getting started](https://github.com/voxeet/voxeet-sdk-browser-gettingstarted/) project.
 
