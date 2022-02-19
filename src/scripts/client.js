@@ -52,6 +52,6 @@ const main = async (consumerKey, consumerSecret) => {
 
 //Update with your API Keys
 main(
-	"IoIcJ1w_bdSfHywYZk2_6w==",
-	"C2DmyJL38jG8pMMKM7Uqp6y6aL-9vUBES_BIHIiUDkw="
+	"Insert_Your_Consumer_Key_Here",
+	"Insert_Your_Consumer_Secret_Here"
 );
