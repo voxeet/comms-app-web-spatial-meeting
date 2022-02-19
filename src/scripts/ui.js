@@ -94,8 +94,8 @@ const initUI = () => {
 				// scale for Z axis doesn't matter as we never provide a Z position, set it to 1
 				// We set the scale as 1:10, so 1 meter in the physical world is 10 in our virtual conference
 				const scale = {
-					x: 10,
-					y: 10,
+					x: 1,
+					y: 1,
 					z: 1,
 				};
 
